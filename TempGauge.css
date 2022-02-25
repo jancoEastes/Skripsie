@@ -1,0 +1,50 @@
+.TempGauge{
+	width: 100%;
+	max-width: 250px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 32px;
+	color: #004033;
+}
+
+.TempGauge__body{
+	width: 100%;
+	height: 0;
+	padding-bottom: 50%;
+	background: linear-gradient(to right, blue, green, red);
+	position: relative;
+	border-top-left-radius: 100% 200%;
+	border-top-right-radius: 100% 200%;
+	overflow: hidden;
+}
+
+.TempGauge__fill{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: inherit;
+	height: 100%;
+	border-style: solid;
+	border-width: 2px;
+	transform-origin: center top;
+	transform: rotate(0.25turn);
+	transition: transform 0.2s ease-out;
+}
+
+.TempGauge__cover{
+	width: 75%;
+	height: 150%;
+	background: white;
+	border-radius: 50%;
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translateX(-50%);
+	
+	/*Text*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 25%;
+	box-sizing: border-box;
+	 
+}
