@@ -1,3 +1,4 @@
+/*practice web + databse interaction*/
 <?php
 //connect to Database
 
