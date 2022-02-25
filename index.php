@@ -1,3 +1,4 @@
+/*Main HTML code for all practice models and learning how to code*/
 <!DOCTYPE HTML>
 <html>
 <head>
